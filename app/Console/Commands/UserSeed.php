@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands;
 
+use Database\Seeders\User;
 use Illuminate\Console\Command;
 
 class UserSeed extends Command
@@ -27,7 +28,7 @@ class UserSeed extends Command
      */
     public function handle()
     {
-        $class = $this->laravel->make('Database\Seeds\User');
+        $class = $this->laravel->make(User::class);
 
         $class->setContainer($this->laravel)->setCommand($this)->__invoke();
     }

@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands;
 
+use Database\Seeders\Company;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 
@@ -29,7 +30,7 @@ class CompanySeed extends Command
      */
     public function handle()
     {
-        $class_name = $this->input->getOption('class') ?? 'Database\Seeds\Company';
+        $class_name = $this->input->getOption('class') ?? Company::class;
 
         $class = $this->laravel->make($class_name);
 
@@ -44,7 +45,7 @@ class CompanySeed extends Command
     protected function getOptions()
     {
         return [
-            ['class', null, InputOption::VALUE_OPTIONAL, 'The class name of the root seeder', 'Database\Seeds\Company'],
+            ['class', null, InputOption::VALUE_OPTIONAL, 'The class name of the root seeder', 'Company'],
         ];
     }
 }

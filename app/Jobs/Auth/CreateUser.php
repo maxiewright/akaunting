@@ -8,6 +8,7 @@ use App\Events\Auth\UserCreating;
 use App\Interfaces\Job\HasOwner;
 use App\Interfaces\Job\HasSource;
 use App\Interfaces\Job\ShouldCreate;
+use App\Models\Auth\User;
 use App\Traits\Plans;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
@@ -27,7 +28,7 @@ class CreateUser extends Job implements HasOwner, HasSource, ShouldCreate
                 $this->request->merge(['password' => Str::random(40)]);
             }
 
-            $this->model = user_model_class()::create($this->request->input());
+            $this->model = User::create($this->request->input());
 
             // Upload picture
             if ($this->request->file('picture')) {

@@ -410,9 +410,8 @@ return new class extends Migration
         Schema::create('user_roles', function (Blueprint $table) {
             $table->integer('user_id')->unsigned();
             $table->integer('role_id')->unsigned();
-            $table->string('user_type');
 
-            $table->primary(['user_id', 'role_id', 'user_type']);
+            $table->primary(['user_id', 'role_id']);
         });
 
         Schema::table('user_roles', function (Blueprint $table) {
