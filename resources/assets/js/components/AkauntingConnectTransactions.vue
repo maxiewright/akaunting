@@ -278,9 +278,9 @@
 
 <script>
 import { SlideYUpTransition } from "vue2-transitions";
-import AkauntingSelect from './AkauntingSelect';
-import AkauntingMoney from './AkauntingMoney';
-import AkauntingDocumentButton from './AkauntingDocumentButton';
+import AkauntingSelect from './AkauntingSelect.vue';
+import AkauntingMoney from './AkauntingMoney.vue';
+import AkauntingDocumentButton from './AkauntingDocumentButton.vue';
 import {Money} from 'v-money';
 
 export default {

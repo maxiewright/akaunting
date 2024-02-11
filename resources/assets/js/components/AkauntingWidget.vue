@@ -82,7 +82,7 @@
 <script>
 import axios from 'axios';
 import { Select, Option } from 'element-ui';
-import AkauntingModal from "./AkauntingModal";
+import AkauntingModal from "./AkauntingModal.vue";
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 import Form from './../plugins/form';

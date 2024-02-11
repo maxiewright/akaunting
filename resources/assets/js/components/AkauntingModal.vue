@@ -52,11 +52,11 @@
 
 <script>
 import { SlideYUpTransition } from "vue2-transitions";
-import AkauntingRadioGroup from './AkauntingRadioGroup';
-import AkauntingSelect from './AkauntingSelect';
-import AkauntingDate from './AkauntingDate';
-import AkauntingRecurring from './AkauntingRecurring';
-import AkauntingMoney from './AkauntingMoney';
+import AkauntingRadioGroup from './AkauntingRadioGroup.vue';
+import AkauntingSelect from './AkauntingSelect.vue';
+import AkauntingDate from './AkauntingDate.vue';
+import AkauntingRecurring from './AkauntingRecurring.vue';
+import AkauntingMoney from './AkauntingMoney.vue';
 
 export default {
     name: 'akaunting-modal',

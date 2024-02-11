@@ -52,12 +52,12 @@ import Vue from 'vue';
 
 import { Select, Option, OptionGroup, ColorPicker } from 'element-ui';
 
-import AkauntingModalAddNew from './AkauntingModalAddNew';
-import AkauntingModal from './AkauntingModal';
-import AkauntingMoney from './AkauntingMoney';
-import AkauntingRadioGroup from './AkauntingRadioGroup';
-import AkauntingSelect from './AkauntingSelect';
-import AkauntingDate from './AkauntingDate';
+import AkauntingModalAddNew from './AkauntingModalAddNew.vue';
+import AkauntingModal from './AkauntingModal.vue';
+import AkauntingMoney from './AkauntingMoney.vue';
+import AkauntingRadioGroup from './AkauntingRadioGroup.vue';
+import AkauntingSelect from './AkauntingSelect.vue';
+import AkauntingDate from './AkauntingDate.vue';
 
 import Form from './../plugins/form';
 

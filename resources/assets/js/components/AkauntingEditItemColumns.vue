@@ -16,7 +16,7 @@
 <script>
 import Vue from 'vue';
 
-import AkauntingModalAddNew from './AkauntingModalAddNew';
+import AkauntingModalAddNew from './AkauntingModalAddNew.vue';
 
 import Form from './../plugins/form';
 

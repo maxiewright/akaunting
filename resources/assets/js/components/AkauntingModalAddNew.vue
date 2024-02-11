@@ -80,13 +80,13 @@
 import Vue from 'vue';
 
 import { SlideYUpTransition } from "vue2-transitions";
-import AkauntingModal from './AkauntingModal';
-import AkauntingMoney from './AkauntingMoney';
-import AkauntingRadioGroup from './AkauntingRadioGroup';
-import AkauntingSelect from './AkauntingSelect';
-import AkauntingSelectRemote from './AkauntingSelectRemote';
-import AkauntingDate from './AkauntingDate';
-import AkauntingRecurring from './AkauntingRecurring';
+import AkauntingModal from './AkauntingModal.vue';
+import AkauntingMoney from './AkauntingMoney.vue';
+import AkauntingRadioGroup from './AkauntingRadioGroup.vue';
+import AkauntingSelect from './AkauntingSelect.vue';
+import AkauntingSelectRemote from './AkauntingSelectRemote.vue';
+import AkauntingDate from './AkauntingDate.vue';
+import AkauntingRecurring from './AkauntingRecurring.vue';
 
 import Form from './../plugins/form';
 import { Alert, ColorPicker } from 'element-ui';

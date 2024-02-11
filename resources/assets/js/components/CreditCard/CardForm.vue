@@ -331,7 +331,7 @@
 <script>
 
 import axios from 'axios';
-import Card from './Card';
+import Card from './Card.vue';
 
 export default {
     name: 'CardForm',

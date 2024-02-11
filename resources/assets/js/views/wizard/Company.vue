@@ -136,8 +136,8 @@
 
 <script>
     import { Select, Option } from "element-ui";
-    import AkauntingDropzoneFileUpload from "./../../components/AkauntingDropzoneFileUpload";
-    import AkauntingDate from "./../../components/AkauntingDate";
+    import AkauntingDropzoneFileUpload from "./../../components/AkauntingDropzoneFileUpload.vue";
+    import AkauntingDate from "./../../components/AkauntingDate.vue";
     import WizardAction from "./../../mixins/wizardAction";
     import WizardSteps from "./Steps.vue";
 

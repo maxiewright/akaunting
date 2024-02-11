@@ -33,8 +33,8 @@
 </template>
 
 <script>
-    import FilteredList from "./SearchString/FilteredList";
-    import FilterMain from "./SearchString/FilterMain";
+    import FilteredList from "./SearchString/FilteredList.vue";
+    import FilterMain from "./SearchString/FilterMain.vue";
     import {getQueryVariable} from './../plugins/functions';
 
 export default {

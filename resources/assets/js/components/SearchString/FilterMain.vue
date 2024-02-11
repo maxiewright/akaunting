@@ -67,7 +67,7 @@
 
 <script>
     import {getQueryVariable} from './../../plugins/functions';
-    import Filters from "./Filters";
+    import Filters from "./Filters.vue";
     import flatPicker from "vue-flatpickr-component";
     import "flatpickr/dist/flatpickr.css";
 

@@ -256,7 +256,7 @@
 
 <script>
     import { Select, Option } from "element-ui";
-    import AkauntingRadioGroup from "./../../components/AkauntingRadioGroup";
+    import AkauntingRadioGroup from "./../../components/AkauntingRadioGroup.vue";
     import BulkAction from "./../../plugins/bulk-action";
     import MixinsGlobal from "./../../mixins/global";
     import WizardAction from "./../../mixins/wizardAction";
